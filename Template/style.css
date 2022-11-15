@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+ /* heaaaaaaaaaaaaaaaaaaaaaaaaader */
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 70px 60px 30px;
+    padding-left: 60px;
+    background-color: #f44336;
+    position: fixed;
+    height: 100%;
+    z-index: 4;
+}
+header ,body {
+    display: flex;
+}
+a { 
+    text-decoration: none;
+}
+ul a{
+    line-height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    list-style-type: none;
+    padding-right: 80px;
+}
+ul {
+    list-style: none;
+}
+header h2 {
+    margin: 60px 0 60px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+header li:hover {
+    background-color: white;
+}
+li:hover a {
+    color: black;
+}
+
+ /* sectioooonnnnnnnnsss */
+
+main {
+    padding: 50px;
+    padding-left: 350px;
+    position: relative;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 60px;
+    padding-top: 20px;
+}
+h2 {
+    color: #f44336;
+    font-size: 40px;
+}
+h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.red-line {
+    border: 5px solid #f44336;
+    border-radius: 4px;
+    width: 50px;
+    height: 0.5px;
+}
+
+ /* showcase section */
+
+.images {
+    display: flex;
+}
+.images1 {
+    width: 100px;
+    height: 467px;
+}
+.images2 {
+    width: 100px;
+    height: 317.2px;
+}
+img {
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+ /* services section */
+
+.services {
+    overflow: hidden;
+}
+h3 {
+    font-style: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ /* designers section */
+
+.teams {
+    display: flex;
+}
+.team {
+    background-color: #f1f1f1;
+    width: 350px;
+    height: 450px;
+}
+.persone {
+    width: 350px;
+    height: 240px;
+    filter: grayscale(0.8);
+}
+.between {
+    margin-left: 30px;
+}
+.para {
+    padding: 15px;
+}
+
+/* diiiiiiivvvvvvv333333333*/
+
+tr {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+ /* packages section */
+
+.packages {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.package {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-right: 10px;
+}
+.package h4 {
+    z-index: 0;
+    color: white;
+    padding: 20px;
+}
+.basic {
+    background-color: #616161;
+}
+.basic-button {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.basic-button:hover {
+   background-color: #f44336;
+   color: rgb(10, 9, 9);
+}
+.pro {
+    background-color: #f44336;
+}
+.pro-button {
+    background-color: white;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+}
+.pro-button:hover {
+   background-color: #ffffff;
+   color: #000000;
+}
+.package span {
+    padding: 1em 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+.package button {
+    width: 20%;
+    margin: 10px auto;
+    border: none;
+    cursor: pointer;
+}
+.package hr {
+    opacity: .5;
+}
+
+ /* contact section */
+
+.label {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.inputs {
+    width: 99%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.input button {
+    cursor: pointer;
+    color: grey;
+}
+.input button:hover {
+    background-color: #f1f1ff;
+    color: #000000;
+}
+.label button {
+    background-color: #f44336;
+    border: none;
+}
+footer {
+    background-color: #f1f1f1;
+    margin-top: auto;
+    position: absolute;
+    right: 0;
+    width: calc(100% - 290px);
+    height: 100px;
+    z-index: 3;
+    bottom: 0;
+}
+#icone {
+    margin-left: 40px;
+}
+.icones i{
+    margin-right: 15px;
+    margin-top: 25px;
+    font-size: 34px;
+}
+.icones a:visited , .icones a:link {
+    text-decoration: none;
+}
